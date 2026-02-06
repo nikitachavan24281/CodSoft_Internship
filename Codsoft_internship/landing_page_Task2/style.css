@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #0a1f44;   /* Navy text */
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #0a1f44;   /* Navy blue */
+    padding: 15px 40px;
+}
+
+.logo h2 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.logo p {
+    font-size: 12px;
+    color: #cfd8e3;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-left: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.menu a:hover {
+    color: #cfd8e3;
+}
+
+/* HERO SECTION */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #f2f5f9;   /* Light white/grey */
+    padding: 60px 40px;
+}
+
+.hero-text {
+    width: 60%;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+    color: #0a1f44;
+}
+
+.hero-text p {
+    font-size: 15px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #334e68;
+}
+
+.hero-text button {
+    padding: 10px 25px;
+    background: #0a1f44;
+    border: none;
+    color: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.hero-text button:hover {
+    background: #163a70;
+}
+
+/* RIGHT SIDE BOX (IMAGE REPLACEMENT) */
+.hero-box {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(135deg, #0a1f44, #163a70);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12px;
+    color: white;
+}
+
+.hero-box h2 {
+    font-size: 28px;
+}
+
+.hero-box p {
+    font-size: 14px;
+}
+
+/* ABOUT SECTION */
+.about {
+    background: #ffffff;
+    color: #0a1f44;
+    padding: 60px 40px;
+}
+
+.about-box {
+    max-width: 700px;
+}
+
+.about-box h2 {
+    font-size: 28px;
+}
+
+.line {
+    width: 60px;
+    height: 3px;
+    background: #0a1f44;
+    margin: 10px 0 20px;
+}
+
+.about-box p {
+    font-size: 15px;
+    line-height: 1.7;
+    margin-bottom: 15px;
+    color: #334e68;
+}
+
+.btn {
+    padding: 10px 20px;
+    background: #0a1f44;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: #163a70;
+}
+
+/* FOOTER */
+footer {
+    background: #0a1f44;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    color: white;
+}
